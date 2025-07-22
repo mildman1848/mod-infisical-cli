@@ -1,0 +1,4 @@
+#!/bin/sh
+# Empty file to satisfy S6-overlay for oneshot services
+# No action needed as this is a oneshot service
+exit 0
