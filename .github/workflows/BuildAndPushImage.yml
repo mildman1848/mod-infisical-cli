@@ -62,4 +62,6 @@ jobs:
           push: true
           tags: |
             ${{ needs.set-vars.outputs.ENDPOINT }}:${{ needs.set-vars.outputs.IMAGE_TAG }}
+            ${{ needs.set-vars.outputs.ENDPOINT }}:latest
             ghcr.io/${{ needs.set-vars.outputs.ENDPOINT }}:${{ needs.set-vars.outputs.IMAGE_TAG }}
+            ghcr.io/${{ needs.set-vars.outputs.ENDPOINT }}:latest
