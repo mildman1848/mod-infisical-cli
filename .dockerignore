@@ -1,0 +1,22 @@
+# Ignore temporary files and caches
+*.log
+*.tmp
+/tmp/*
+/var/cache/apk/*
+
+# Ignore IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Ignore git-related files
+.git
+.gitignore
+
+# Ignore local environment files
+.env
+
+# Ignore documentation and changelog
+README.md
+Changelog.md
