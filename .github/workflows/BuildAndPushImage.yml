@@ -7,7 +7,7 @@ env:
   ENDPOINT: "mildman1848/mod-infisical-cli"
   BASEIMAGE: "universal"
   MODNAME: "infisical-cli"
-  IMAGE_TAG: "0.1.1"
+  IMAGE_TAG: "0.1.2"
 
 jobs:
   set-vars:
